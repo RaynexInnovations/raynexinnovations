@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raynex Innovations</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background: #121212;
+            color: #fff;
+        }
+        .header {
+            background: linear-gradient(90deg, #a2a2a1, #000000);
+            color: white;
+            padding: 25px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            background: #1f1f1f;
+            padding: 15px;
+            box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+        }
+        .nav a {
+            color: #a0917e;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+        .nav a:hover {
+            color: #a6bb74;
+        }
+        .hero {
+            background: url('hero-image.jpg') center/cover no-repeat fixed;
+            color: white;
+            text-align: center;
+            padding: 120px 20px;
+            font-size: 32px;
+            font-weight: bold;
+        }
+        .section {
+            padding: 80px;
+            text-align: center;
+        }
+        .services, .team {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 40px;
+            padding: 40px;
+        }
+        .card {
+            background: #1f1f1f;
+            padding: 30px;
+            width: 320px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 12px rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.08);
+        }
+        .contact {
+            background: linear-gradient(90deg, #cec4b8, #d9b7c0);
+            color: white;
+            padding: 50px;
+            text-align: center;
+        }
+        .contact-form {
+            max-width: 450px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            margin: 12px 0;
+            padding: 14px;
+            border-radius: 6px;
+            border: none;
+            background: #fff;
+            color: #000;
+        }
+        .footer {
+            background: #1f1f1f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+            border-top: 2px solid #bca890;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Raynex Innovations</div>
+    <div class="nav">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#team">Our Team</a>
+        <a href="#contact">Contact</a>
+    </div>
+    
+    <div class="hero">
+        <h1>Innovate Design Educate</h1>
+        <p>Shaping the digital world with cutting-edge technology.</p>
+    </div>
+    
+    <div class="section" id="about">
+        <h2>About Us</h2>
+        <p>Raynex Innovations is a next-generation technology company specializing in web development, branding, and digital transformation.</p>
+    </div>
+    
+    <div class="section" id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="card">Web Development</div>
+            <div class="card">Invitations</div>
+            <div class="card">Poster Design</div>
+            <div class="card">Educational Consultancy</div>
+        </div>
+    </div>
+    
+    <div class="section" id="team">
+        <h2>Meet Our Team</h2>
+        <div class="team">
+            <div class="card">Vaibhav Rai A V</div>
+            
+        </div>
+    </div>
+    
+    <div class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    
+    <div class="footer">
+        &copy; 2025 Raynex Innovations | Follow us on <a href="https://www.instagram.com/raynex_innovations?igsh=MXUyeXJlbHIyNWlhcA%3D%3D&utm_source=qr">instagram</a> 
+    </div>
+</body>
+</html>
